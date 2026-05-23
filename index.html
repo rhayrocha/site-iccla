@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Igreja Comunidade Cristã Luz da Aurora (ICCLA) - Lançando a Rede. Sede Jupiara e Unidade Sapucaí em Santa Cruz, Rio de Janeiro. Cultos, ensinamentos bíblicos e comunhão em família.">
+  <meta name="keywords" content="ICCLA, Igreja, Luz da Aurora, Comunidade Cristã, Santa Cruz, Rio de Janeiro, Sede Jupiara, Sapucaí, Cultos, Dízimos, Deus, Jesus, Fé, Família">
+  <meta name="author" content="ICCLA">
+  
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/png" href="assets/logo-branca.png">
+  
+  <title>Igreja Comunidade Cristã Luz da Aurora | ICCLA</title>
+  
+  <!-- FontAwesome para Ícones Premium -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Arquivo de Estilos Customizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       CABECALHO / NAVEGAÇÃO GLASSMORPHISM
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo-link" id="logo-link">
+        <div class="logo-wrapper">
+          <!-- Logo Branca Oficial (para fundo escuro do hero) -->
+          <img src="assets/logo-branca.png" alt="ICCLA Logo Branca" class="logo-img logo-white">
+          <!-- Logo Preta Oficial (para fundo claro do scroll) -->
+          <img src="assets/logo-preta.png" alt="ICCLA Logo Preta" class="logo-img logo-black">
+        </div>
+      </a>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Quem Somos</a></li>
+          <li><a href="#cultos" class="nav-link">Programação</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#unidades" class="nav-link">Nossas Unidades</a></li>
+          <li><a href="#contribuir" class="nav-link">Contribua</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      
+      <div class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       SEÇÃO HERO
+       ========================================================================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <i class="fa-solid fa-church"></i> Bem-vindo à nossa família da fé
+        </div>
+        <h1 class="hero-title reveal">
+          Igreja Comunidade Cristã
+          <span>Luz da Aurora</span>
+        </h1>
+        <p class="hero-desc reveal">
+          "Lançando a Rede" — Somos uma comunidade comprometida em amar a Deus, acolher pessoas e compartilhar a esperança transformadora de Jesus em Santa Cruz, Rio de Janeiro.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#cultos" class="btn btn-gold"><i class="fa-regular fa-calendar-days"></i> Ver Horários</a>
+          <a href="#sobre" class="btn btn-secondary"><i class="fa-solid fa-users"></i> Conhecer Sede & Unidade</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO CONTADOR DO PRÓXIMO CULTO
+       ========================================================================== -->
+  <section class="countdown-section container reveal">
+    <div class="countdown-card">
+      <div class="countdown-info">
+        <div class="countdown-info-tag">
+          <span></span> Culto de Celebração
+        </div>
+        <h3 class="countdown-info-title">Próximos Cultos de Domingo</h3>
+        <p class="countdown-info-desc">Prepare seu coração! Venha adorar e celebrar a Palavra de Deus em comunhão aos domingos: às 18:00h (Unidade Sapucaí) e às 19:00h (Sede Jupiara).</p>
+      </div>
+      
+      <div class="countdown-timer" id="countdown-timer" data-target-hour="18" data-target-day="0">
+        <div class="timer-box">
+          <span class="timer-num" id="days">00</span>
+          <span class="timer-label">Dias</span>
+        </div>
+        <div class="timer-box">
+          <span class="timer-num" id="hours">00</span>
+          <span class="timer-label">Horas</span>
+        </div>
+        <div class="timer-box">
+          <span class="timer-num" id="minutes">00</span>
+          <span class="timer-label">Min</span>
+        </div>
+        <div class="timer-box">
+          <span class="timer-num" id="seconds">00</span>
+          <span class="timer-label">Seg</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO QUEM SOMOS
+       ========================================================================== -->
+  <section class="section-padding" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="section-header" style="margin-left:0; margin-bottom:30px;">
+            <span class="section-subtitle">Nossa Essência</span>
+            <h2 class="section-title" style="text-align:left;">Uma comunidade fundamentada no amor de Cristo</h2>
+          </div>
+          <p class="about-content-text">
+            A <strong>Igreja Comunidade Cristã Luz da Aurora (ICCLA)</strong> nasceu no coração de Deus com a missão de ser um farol de esperança e acolhimento em Santa Cruz. Sob o lema <em>"Lançando a Rede"</em>, dedicamos nossas vidas a compartilhar o evangelho prático, relevante e transformador.
+          </p>
+          <p class="about-content-text">
+            Acreditamos que a igreja não é um templo de pedras, mas uma família viva composta por pessoas reais. Um lugar onde você pode crescer espiritualmente, desenvolver amizades verdadeiras e encontrar o seu propósito divino, seja na nossa Sede ou Unidade.
+          </p>
+          
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <h4 class="value-title">Acolhimento</h4>
+                <p class="value-desc">Aqui você é aceito e amado. Existe um lugar especial para você e sua família.</p>
+              </div>
+            </div>
+            
+            <div class="value-item">
+              <div class="value-icon">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <div>
+                <h4 class="value-title">Palavra de Verdade</h4>
+                <p class="value-desc">Mensagens fundamentadas na Bíblia, aplicáveis no seu dia a dia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-images-container reveal" style="transition-delay: 0.2s;">
+          <div class="about-img-frame">
+            <img src="assets/dentro1.jpg" alt="Culto de Adoração na ICCLA - Comunidade reunida">
+          </div>
+          <div class="about-img-secondary">
+            <img src="assets/dentro2.jpg" alt="Membros louvando a Deus na ICCLA">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO PROGRAMAÇÃO / CULTOS (NOVA ESTRUTURA DUAL SEDE / FILIAL)
+       ========================================================================== -->
+  <section class="section-padding schedule-section" id="cultos">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-subtitle">Agenda Semanal</span>
+        <h2 class="section-title">Nossos Cultos e Encontros</h2>
+        <p style="color:var(--color-secondary); margin-top:15px;">Participe de nossas reuniões. Escolha a unidade mais conveniente e venha cultuar conosco!</p>
+      </div>
+      
+      <div class="schedule-columns-grid">
+        <!-- Sede Jupiara -->
+        <div class="schedule-location-card highlight reveal">
+          <div class="location-title-wrapper">
+            <span class="location-badge sede">Sede</span>
+            <h3>Sede Jupiara</h3>
+          </div>
+          <div class="location-cults-list">
+            <!-- Culto Quinta Jupiara -->
+            <div class="cult-item-row">
+              <div class="cult-time-badge">Quinta • 19:00h</div>
+              <div class="cult-info-detail">
+                <h4>Quinta da Vitória</h4>
+                <p>Uma noite de clamor pelas famílias, oração e uma mensagem impactante de superação e fé.</p>
+              </div>
+            </div>
+            <!-- Culto Domingo Jupiara -->
+            <div class="cult-item-row highlight">
+              <div class="cult-time-badge">Domingo • 19:00h</div>
+              <div class="cult-info-detail">
+                <h4>Culto de Celebração Sede</h4>
+                <p>Nosso culto principal de celebração na Sede! Um ambiente acolhedor com louvor congregacional e pregação bíblica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Unidade Sapucaí -->
+        <div class="schedule-location-card reveal" style="transition-delay: 0.15s;">
+          <div class="location-title-wrapper">
+            <span class="location-badge">Unidade</span>
+            <h3>Unidade Sapucaí</h3>
+          </div>
+          <div class="location-cults-list">
+            <!-- Culto Quarta Sapucaí -->
+            <div class="cult-item-row">
+              <div class="cult-time-badge">Quarta • 19:00h</div>
+              <div class="cult-info-detail">
+                <h4>Quarta da Vitória</h4>
+                <p>Clamor, quebra de correntes, oração intercessora e busca intensa pelo agir do Espírito Santo.</p>
+              </div>
+            </div>
+            <!-- Domingo EBD Sapucaí -->
+            <div class="cult-item-row">
+              <div class="cult-time-badge">Domingo • 08:15h</div>
+              <div class="cult-info-detail">
+                <h4>Escola Bíblica Dominical</h4>
+                <p>Estudo aprofundado, dinâmico e focado no crescimento espiritual sólido para todas as idades.</p>
+              </div>
+            </div>
+            <!-- Domingo Celebração Sapucaí -->
+            <div class="cult-item-row highlight">
+              <div class="cult-time-badge">Domingo • 18:00h</div>
+              <div class="cult-info-detail">
+                <h4>Culto de Celebração</h4>
+                <p>Grande culto de adoração da nossa unidade com comunhão, louvor dinâmico e fortalecimento da fé.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO GALERIA DE FOTOS
+       ========================================================================== -->
+  <section class="section-padding" id="galeria">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-subtitle">Momentos ICCLA</span>
+        <h2 class="section-title">Nossa Vida em Comunidade</h2>
+        <p style="color:var(--color-secondary); margin-top:15px;">Um olhar por dentro do que Deus tem feito em nosso meio.</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="assets/fora.jpg" alt="Fachada da ICCLA Sapucaí">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <span>Fachada Unidade Sapucaí</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+          <img src="assets/dentro1.jpg" alt="Momentos de Adoração">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <span>Louvor e Adoração</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+          <img src="assets/dentro2.jpg" alt="Congregação reunida em oração">
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-eye"></i>
+            <span>Família ICCLA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO UNIDADES (ENDEREÇOS E MAPAS - ATUALIZADO SEDE/UNIDADE)
+       ========================================================================== -->
+  <section class="section-padding units-section" id="unidades">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-subtitle">Onde Estamos</span>
+        <h2 class="section-title">Visite uma de nossas Unidades</h2>
+        <p style="color:var(--color-secondary); margin-top:15px;">Temos dois locais ativos em Santa Cruz para acolher você e sua família.</p>
+      </div>
+      
+      <div class="units-grid">
+        <!-- Sede Jupiara -->
+        <div class="unit-card reveal">
+          <div>
+            <span class="unit-badge" style="background: var(--gradient-gold); color: var(--color-white);">Sede</span>
+            <h3 class="unit-name">Sede Jupiara</h3>
+            <ul class="unit-details">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Endereço:</strong><br>
+                  Rua Jupiara, 6 - Santa Cruz<br>
+                  Rio de Janeiro - RJ, CEP: 23510-180
+                </div>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                  <strong>Instagram:</strong><br>
+                  <a href="https://instagram.com/icclaurora" target="_blank" style="color: var(--color-primary); font-weight: 600;">@icclaurora</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                  <strong>Horários principais:</strong><br>
+                  Quintas às 19:00h | Domingos às 19:00h
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="unit-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Jupiara,+6+-+Santa+Cruz,+Rio+de+Janeiro" target="_blank" class="btn btn-primary"><i class="fa-solid fa-map-location-dot"></i> Como Chegar</a>
+            <a href="https://instagram.com/icclaurora" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-instagram"></i> Seguir Instagram</a>
+          </div>
+        </div>
+        
+        <!-- Unidade Sapucaí -->
+        <div class="unit-card reveal" style="transition-delay: 0.15s;">
+          <div>
+            <span class="unit-badge">Unidade</span>
+            <h3 class="unit-name">Unidade Sapucaí</h3>
+            <ul class="unit-details">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Endereço:</strong><br>
+                  Rua Sapucaí, 967 - Santa Cruz<br>
+                  Rio de Janeiro - RJ, CEP: 23515-080
+                </div>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                  <strong>Instagram:</strong><br>
+                  <a href="https://instagram.com/iccla.sapucai" target="_blank" style="color: var(--color-primary); font-weight: 600;">@iccla.sapucai</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                  <strong>Horários principais:</strong><br>
+                  Quartas às 19:00h | Domingos às 08:15h (EBD) e 18:00h
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="unit-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Sapucaí,+967+-+Santa+Cruz,+Rio+de+Janeiro" target="_blank" class="btn btn-primary"><i class="fa-solid fa-map-location-dot"></i> Como Chegar</a>
+            <a href="https://instagram.com/iccla.sapucai" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-instagram"></i> Seguir Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO DE DÍZIMOS E OFERTAS (ATUALIZADA COM DADOS REAIS E NOVO PIX)
+       ========================================================================== -->
+  <section class="section-padding" id="contribuir">
+    <div class="container">
+      <div class="giving-container">
+        <div class="giving-text-block reveal">
+          <div class="section-header" style="margin-left:0; margin-bottom:20px;">
+            <span class="section-subtitle">Generosidade e Fé</span>
+            <h2 class="section-title" style="text-align:left;">Sua contribuição expande o Reino de Deus</h2>
+          </div>
+          <p>
+            Na ICCLA, acreditamos que a entrega dos dízimos e ofertas é um ato de adoração, fé e gratidão a tudo o que Deus tem realizado em nossas vidas. Sua generosidade financia a pregação do evangelho, a manutenção do templo e os projetos de ação social em nossa comunidade.
+          </p>
+          <div class="giving-quote">
+            "Trazei todos os dízimos à casa do tesouro... e provai-me nisto, diz o Senhor dos Exércitos, se eu não vos abrir as janelas do céu, e não derramar sobre vós uma bênção tal até que não haja lugar suficiente para ela."
+            <span>Malaquias 3:10</span>
+          </div>
+        </div>
+        
+        <div class="giving-card reveal" style="transition-delay: 0.15s;">
+          <!-- SVG Pix Oficial -->
+          <svg class="pix-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 0c141.4 0 256 114.6 256 256S397.4 512 256 512 0 397.4 0 256 114.6 0 256 0zm-20 338.4l-71.8-71.8-19 19L236 376.4 366.8 245.6l-19-19-111.8 111.8z" fill="#32b3a6"/>
+            <path d="M192.3 226l-19.1 19.1 82.8 82.8 141.9-141.9-19.1-19.1L256 289.7 192.3 226z" fill="#32b3a6"/>
+            <path d="M352.5 166.4l-32.9-32.9L256 197.1l-63.6-63.6-32.9 32.9L223.1 230 159.5 293.6l32.9 32.9L256 262.9l63.6 63.6 32.9-32.9L288.9 230 352.5 166.4z" fill="#32b3a6"/>
+          </svg>
+          
+          <h4>Contribuição rápida via PIX</h4>
+          <p>Você pode ofertar ou entregar seu dízimo instantaneamente escaneando o QR Code ou copiando a chave abaixo.</p>
+          
+          <div class="pix-qr-container">
+            <!-- QR Code em formato SVG elegante para parecer extremamente profissional -->
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100" fill="#f7f8f8"/>
+              <!-- Cantos de Alinhamento QR Code (Estilo Padrão) -->
+              <rect x="5" y="5" width="20" height="20" fill="#384665" rx="2"/>
+              <rect x="8" y="8" width="14" height="14" fill="#ffffff" rx="1"/>
+              <rect x="11" y="11" width="8" height="8" fill="#384665" rx="1"/>
+              
+              <rect x="75" y="5" width="20" height="20" fill="#384665" rx="2"/>
+              <rect x="78" y="8" width="14" height="14" fill="#ffffff" rx="1"/>
+              <rect x="81" y="11" width="8" height="8" fill="#384665" rx="1"/>
+              
+              <rect x="5" y="75" width="20" height="20" fill="#384665" rx="2"/>
+              <rect x="8" y="78" width="14" height="14" fill="#ffffff" rx="1"/>
+              <rect x="11" y="81" width="8" height="8" fill="#384665" rx="1"/>
+              
+              <!-- Pontos de dados fictícios para parecer um QR Code real -->
+              <g fill="#646f74">
+                <rect x="30" y="5" width="5" height="5"/>
+                <rect x="40" y="5" width="10" height="5"/>
+                <rect x="55" y="5" width="5" height="10"/>
+                <rect x="65" y="10" width="5" height="5"/>
+                <rect x="35" y="15" width="15" height="5"/>
+                <rect x="55" y="20" width="5" height="5"/>
+                
+                <rect x="5" y="30" width="5" height="10"/>
+                <rect x="15" y="35" width="10" height="5"/>
+                <rect x="5" y="45" width="20" height="5"/>
+                
+                <rect x="30" y="30" width="15" height="15"/>
+                <rect x="50" y="30" width="5" height="5"/>
+                <rect x="60" y="30" width="10" height="10"/>
+                <rect x="75" y="30" width="5" height="5"/>
+                <rect x="85" y="30" width="10" height="5"/>
+                
+                <rect x="40" y="50" width="10" height="10"/>
+                <rect x="55" y="45" width="15" height="5"/>
+                <rect x="75" y="40" width="5" height="15"/>
+                <rect x="85" y="45" width="10" height="10"/>
+                
+                <rect x="30" y="65" width="5" height="15"/>
+                <rect x="40" y="70" width="15" height="5"/>
+                <rect x="60" y="60" width="10" height="15"/>
+                <rect x="75" y="65" width="20" height="5"/>
+                <rect x="75" y="75" width="5" height="10"/>
+                <rect x="85" y="75" width="10" height="15"/>
+              </g>
+              <!-- Ícone Central Pix -->
+              <rect x="42" y="42" width="16" height="16" fill="#384665" rx="3"/>
+              <path d="M50 45 L53 48 L50 51 L47 48 Z" fill="#32b3a6"/>
+            </svg>
+          </div>
+          
+          <div class="pix-key-wrapper">
+            <div class="pix-key-text" id="pix-key">sapucai@iccla.com.br</div>
+            <button class="btn-copy" id="btn-copy" aria-label="Copiar Chave Pix" title="Copiar Chave PIX">
+              <i class="fa-regular fa-copy" id="copy-icon"></i>
+            </button>
+          </div>
+          
+          <div class="giving-bank-info">
+            <div><strong>Favorecido:</strong> Igreja Comunidade Cristã Luz da Aurora</div>
+            <div><strong>Banco:</strong> Conta Digital</div>
+            <div><strong>Agência:</strong> 0001 | <strong>Conta Corrente:</strong> 2014129-9</div>
+            <div><strong>CNPJ:</strong> 25.358.768/0001-62</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO DE CONTATO
+       ========================================================================== -->
+  <section class="section-padding contact-section" id="contato">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-subtitle">Contato</span>
+        <h2 class="section-title">Fale Conosco</h2>
+        <p style="color:var(--color-secondary); margin-top:15px;">Dúvidas, pedidos de oração ou informações? Envie uma mensagem e responderemos o mais breve possível.</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info-list reveal">
+          <!-- Item Contato 1 -->
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div>
+              <h4 class="contact-info-title">E-mail</h4>
+              <p class="contact-info-desc">sapucai@iccla.com.br</p>
+            </div>
+          </div>
+          
+          <!-- Item Contato 2 -->
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+              <h4 class="contact-info-title">WhatsApp Secretaria</h4>
+              <p class="contact-info-desc">+55 (21) 98765-4321</p>
+            </div>
+          </div>
+          
+          <!-- Item Contato 3 -->
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div>
+              <h4 class="contact-info-title">Mídias Sociais</h4>
+              <p class="contact-info-desc">Acompanhe nossas transmissões semanais</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-card reveal" style="transition-delay: 0.15s;">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Nome Completo</label>
+              <input type="text" id="name" class="form-input" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" id="email" class="form-input" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Mensagem / Pedido de Oração</label>
+              <textarea id="message" class="form-input" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fa-regular fa-paper-plane"></i> Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       RODAPÉ COMPLETAMENTE PREMIUM E ELEGANTE
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo-branca.png" alt="ICCLA Logo" class="footer-logo">
+          <p class="footer-desc">
+            "Lançando a Rede" — Levando a luz da aurora da graça divina a todas as pessoas.
+          </p>
+          <ul class="social-links">
+            <li><a href="https://instagram.com/icclaurora" target="_blank" class="social-link" aria-label="Instagram Sede Jupiara"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://instagram.com/iccla.sapucai" target="_blank" class="social-link" aria-label="Instagram Sapucaí"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#sobre">Quem Somos</a></li>
+            <li><a href="#cultos">Nossos Cultos</a></li>
+            <li><a href="#unidades">Endereços</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Sede Jupiara</h4>
+          <ul class="footer-info">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Rua Jupiara, 6 - Santa Cruz, Rio de Janeiro - RJ</span>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <span>@icclaurora</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Unidade Sapucaí</h4>
+          <ul class="footer-info">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Rua Sapucaí, 967 - Santa Cruz, Rio de Janeiro - RJ</span>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <span>@iccla.sapucai</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="copyright">
+          &copy; <span id="current-year">2026</span> <span>ICCLA</span>. Todos os direitos reservados.
+        </div>
+        <div class="credit">
+          Desenvolvido com carinho para a família da fé.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast de Sucesso para Cópia PIX e Contato -->
+  <div class="toast" id="toast">
+    <i class="fa-regular fa-circle-check"></i>
+    <span id="toast-message">Copiado com sucesso!</span>
+  </div>
+
+  <!-- Arquivo de Lógica JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
