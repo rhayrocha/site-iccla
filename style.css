@@ -1618,3 +1618,46 @@ textarea.form-input {
   line-height: 1.4;
   margin: 0;
 }
+
+
+/* ==========================================================================
+   CORREÇÃO RESPONSIVA PARA O CONTADOR (MOBILE)
+   ========================================================================== */
+@media (max-width: 576px) {
+  .countdown-card {
+    padding: 24px 16px; /* Reduz as margens internas do card branco para ganhar espaço */
+  }
+
+  .countdown-timer {
+    gap: 8px; /* Reduz o espaço entre as caixinhas de tempo */
+  }
+
+  .timer-box {
+    min-width: 0; /* Remove a largura mínima que estava quebrando o layout */
+    padding: 12px 4px; /* Diminui o espaçamento interno das caixas */
+  }
+
+  .timer-num {
+    font-size: 22px; /* Ajusta o tamanho do número para não vazar da caixinha */
+  }
+
+  .timer-label {
+    font-size: 9px; /* Ajusta a fonte do texto (DIAS, HORAS...) */
+  }
+}
+
+/* ==========================================================================
+   CORREÇÃO RESPONSIVA DO BANNER HERO (MOBILE)
+   ========================================================================== */
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Tira a altura engessada e permite que o banner cresça o necessário */
+    min-height: 100vh; /* Garante que ocupe pelo menos a tela toda */
+    padding-top: 120px; /* Empurra o conteúdo para baixo, livrando a logo e o menu */
+    padding-bottom: 120px; /* Cria um "colchão" de espaço vazio embaixo dos botões */
+  }
+
+  .countdown-section {
+    margin-top: -50px; /* Faz o contador subir um pouco menos sobre o banner */
+  }
+}
