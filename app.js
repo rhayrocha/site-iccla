@@ -175,27 +175,11 @@ function initScrollReveal() {
 }
 
 /**
- * 6. FORMULÁRIO DE CONTATO (SIMULAÇÃO E FEEDBACK)
- * Intercepta o envio do formulário de contato e dá um feedback visual interativo ao usuário.
+ * 6. FORMULÁRIO DE CONTATO (GERENCIADO VIA FORMSPREE NO HTML)
  */
 function initContactForm() {
-  const form = document.getElementById('contact-form');
-  
-  if (!form) return;
-
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    // Simula uma requisição HTTP bem sucedida
-    showToast(`Obrigado, ${name.split(' ')[0]}! Sua mensagem foi enviada com sucesso. ✓`);
-    
-    // Reseta o formulário
-    form.reset();
-  });
+  // Desativado o interceptador antigo para permitir que o formulário envie os dados nativamente ao Formspree.
+  return;
 }
 
 /**
