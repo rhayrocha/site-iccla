@@ -31,6 +31,7 @@
           <li><a href="#" class="nav-link">Início</a></li>
           <li><a href="#sobre" class="nav-link">Quem Somos</a></li>
           <li><a href="#cultos" class="nav-link">Programação</a></li>
+          <li><a href="#eventos" class="nav-link">Eventos</a></li>
           <li><a href="#galeria" class="nav-link">Galeria</a></li>
           <li><a href="#unidades" class="nav-link">Nossos Endereços</a></li>
           <li><a href="#contribuir" class="nav-link">Contribua</a></li>
@@ -72,11 +73,11 @@
   <section class="countdown-section container reveal">
     <div class="countdown-card">
       <div class="countdown-info">
-        <div class="countdown-info-tag">
-          <span></span> Culto de Celebração
+        <div class="countdown-info-tag" id="countdown-tag">
+          <span></span> Próxima Reunião
         </div>
-        <h3 class="countdown-info-title">Próximos Cultos de Domingo</h3>
-        <p class="countdown-info-desc">Prepare seu coração! Venha adorar e celebrar a Palavra de Deus em comunhão aos domingos: às 18:00h (ICCLA Sapucaí) e às 19:00h (ICCLA Jupiara).</p>
+        <h3 class="countdown-info-title" id="countdown-title">Próximo Encontro</h3>
+        <p class="countdown-info-desc" id="countdown-desc">Venha adorar e celebrar a Palavra de Deus em comunhão com a família ICCLA.</p>
       </div>
       
       <div class="countdown-timer" id="countdown-timer" data-target-hour="18" data-target-day="0">
@@ -209,6 +210,77 @@
                 <p>Grande culto de adoração da nossa filial com comunhão, louvor dinâmico e fortalecimento da fé.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SEÇÃO DE EVENTOS ESPECIAIS
+       ========================================================================== -->
+  <section class="section-padding events-section" id="eventos">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-subtitle">Agenda Especial</span>
+        <h2 class="section-title">Próximos Eventos</h2>
+        <p style="color:var(--color-secondary); margin-top:15px;">Participe das nossas conferências, congressos e programações especiais em comunidade.</p>
+      </div>
+
+      <div class="events-grid">
+        <!-- Evento 1: Batismo e Confraternização -->
+        <div class="event-card reveal">
+          <div>
+            <div class="event-card-top">
+              <div class="event-date-box gold">
+                <div class="event-date-day">20</div>
+                <div class="event-date-month">Set</div>
+              </div>
+              <div>
+                <span class="event-badge">Comunhão • Batismo</span>
+                <h3 class="event-title">Batismo & Confraternização</h3>
+              </div>
+            </div>
+            <ul class="event-details-list">
+              <li><i class="fa-regular fa-clock"></i> <strong>Horário:</strong> 08:00h</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Local:</strong> Sítio Fazendinha</li>
+            </ul>
+            <p class="event-desc">
+              Um dia inesquecível de celebração espiritual com o batismo nas águas, seguido de um momento abençoado de lazer, comunhão e confraternização para toda a família ICCLA.
+            </p>
+          </div>
+          <div class="event-actions">
+            <a href="https://wa.me/5521973203516?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20Batismo%20e%20Confraterniza%C3%A7%C3%A3o" target="_blank" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Informações na Secretaria
+            </a>
+          </div>
+        </div>
+
+        <!-- Evento 2: Congresso dos Homens -->
+        <div class="event-card reveal" style="transition-delay: 0.15s;">
+          <div>
+            <div class="event-card-top">
+              <div class="event-date-box">
+                <div class="event-date-day">25-28</div>
+                <div class="event-date-month">Set</div>
+              </div>
+              <div>
+                <span class="event-badge">Congresso • Homens</span>
+                <h3 class="event-title">Congresso dos Homens</h3>
+              </div>
+            </div>
+            <ul class="event-details-list">
+              <li><i class="fa-regular fa-clock"></i> <strong>Horário:</strong> 19:00h (todos os dias)</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Local:</strong> ICCLA Sapucaí (Rua Sapucaí, 967)</li>
+            </ul>
+            <p class="event-desc">
+              Quatro noites de poder, renovação e direcionamento de Deus para a vida de cada homem. Ministrações inspiradoras, louvor congregacional e comunhão edificante.
+            </p>
+          </div>
+          <div class="event-actions">
+            <a href="https://wa.me/5521973203516?text=Ol%C3%A1%2C%20gostaria%20de%20confirmar%20minha%20presen%C3%A7a%20no%20Congresso%20dos%20Homens" target="_blank" class="btn btn-gold" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Confirmar Presença
+            </a>
           </div>
         </div>
       </div>
@@ -357,25 +429,60 @@
             <path d="M352.5 166.4l-32.9-32.9L256 197.1l-63.6-63.6-32.9 32.9L223.1 230 159.5 293.6l32.9 32.9L256 262.9l63.6 63.6 32.9-32.9L288.9 230 352.5 166.4z" fill="#32b3a6"/>
           </svg>
           
-          <h4>Contribuição rápida via PIX</h4>
-          <p>Você pode ofertar ou entregar seu dízimo instantaneamente escaneando o QR Code ou copiando a chave abaixo.</p>
-          
-          <div class="pix-qr-container">
-            <img src="assets/PIX.jpeg" alt="QR Code para pagamento via Pix" class="pix-qr-img">
-          </div>
-          
-          <div class="pix-key-wrapper">
-            <div class="pix-key-text" id="pix-key">sapucai@iccla.com.br</div>
-            <button class="btn-copy" id="btn-copy" aria-label="Copiar Chave Pix" title="Copiar Chave PIX">
-              <i class="fa-regular fa-copy" id="copy-icon"></i>
+          <h4>Contribuição via PIX</h4>
+          <p>Escolha a congregação para a qual deseja ofertar ou entregar seu dízimo:</p>
+
+          <!-- Seletor de Congregações -->
+          <div class="pix-tabs">
+            <button type="button" class="pix-tab-btn active" data-pix-target="jupiara">
+              <i class="fa-solid fa-church"></i> Sede Jupiara
+            </button>
+            <button type="button" class="pix-tab-btn" data-pix-target="sapucai">
+              <i class="fa-solid fa-place-of-worship"></i> ICCLA Sapucaí
             </button>
           </div>
-          
-          <div class="giving-bank-info">
-            <div><strong>Favorecido:</strong> Igreja Comunidade Cristã Luz da Aurora</div>
-            <div><strong>Banco:</strong> Conta Digital</div>
-            <div><strong>Agência:</strong> 0001 | <strong>Conta Corrente:</strong> 2014129-9</div>
-            <div><strong>CNPJ:</strong> 25.358.768/0001-62</div>
+
+          <!-- Conteúdo Aba: Sede Jupiara -->
+          <div class="pix-tab-pane active" id="pane-jupiara">
+            <span class="pix-congregation-badge sede">Sede Jupiara</span>
+            <p style="font-size: 13px; color: var(--color-secondary); margin-bottom: 14px;">
+              Chave PIX (CNPJ Sede):
+            </p>
+            <div class="pix-key-wrapper">
+              <div class="pix-key-text" id="pix-key-jupiara">25.358.768/0001-62</div>
+              <button class="btn-copy" data-copy-id="pix-key-jupiara" aria-label="Copiar Chave Pix Jupiara" title="Copiar Chave PIX">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+            
+            <div class="giving-bank-info">
+              <div><strong>Favorecido:</strong> Igreja Comunidade Crista Luz Da Aurora</div>
+              <div><strong>CNPJ:</strong> 25.358.768/0001-62</div>
+              <div><strong>Banco:</strong> Conta Digital | <strong>Agência:</strong> 0001 | <strong>Conta:</strong> 2014129-9</div>
+            </div>
+          </div>
+
+          <!-- Conteúdo Aba: ICCLA Sapucaí -->
+          <div class="pix-tab-pane" id="pane-sapucai">
+            <span class="pix-congregation-badge">Congregação Sapucaí</span>
+            <div class="pix-qr-container">
+              <img src="assets/PIX.jpeg" alt="QR Code PIX Sapucaí" class="pix-qr-img">
+            </div>
+            <p style="font-size: 13px; color: var(--color-secondary); margin-bottom: 14px;">
+              Chave PIX (CNPJ Sapucaí):
+            </p>
+            <div class="pix-key-wrapper">
+              <div class="pix-key-text" id="pix-key-sapucai">25.358.768/0002-43</div>
+              <button class="btn-copy" data-copy-id="pix-key-sapucai" aria-label="Copiar Chave Pix Sapucaí" title="Copiar Chave PIX">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+            
+            <div class="giving-bank-info">
+              <div><strong>Favorecido:</strong> Igreja Comunidade Crista Luz Da Aurora</div>
+              <div><strong>CNPJ:</strong> 25.358.768/0002-43</div>
+              <div><strong>Unidade:</strong> Rua Sapucaí, 967 - Santa Cruz, RJ</div>
+            </div>
           </div>
         </div>
       </div>
@@ -408,7 +515,9 @@
             </div>
             <div>
               <h4 class="contact-info-title">WhatsApp Secretaria</h4>
-              <p class="contact-info-desc">+55 (21) 98765-4321</p>
+              <p class="contact-info-desc">
+                <a href="https://wa.me/5521973203516" target="_blank" style="color: inherit; font-weight: 600;">(21) 97320-3516</a>
+              </p>
             </div>
           </div>
           
@@ -465,6 +574,7 @@
             <li><a href="#">Início</a></li>
             <li><a href="#sobre">Quem Somos</a></li>
             <li><a href="#cultos">Nossos Cultos</a></li>
+            <li><a href="#eventos">Eventos</a></li>
             <li><a href="#unidades">Nossos Endereços</a></li>
           </ul>
         </div>
