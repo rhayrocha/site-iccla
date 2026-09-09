@@ -144,7 +144,7 @@ function initCountdown() {
       // 25 de Setembro de 2026 às 19:00h
       date: new Date(2026, 8, 25, 19, 0, 0),
       location: "ICCLA Sapucaí",
-      desc: "De 25 a 28/09 às 19:00h na ICCLA Sapucaí. Noites poderosas de alinhamento e renovo espiritual."
+      desc: "Dias 25 e 26/09 às 19:00h na ICCLA Sapucaí. Noites poderosas de alinhamento e renovo espiritual."
     }
   ];
 
