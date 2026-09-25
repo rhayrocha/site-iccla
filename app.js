@@ -131,20 +131,20 @@ function initCountdown() {
   // Eventos especiais programados da ICCLA
   const specialEvents = [
     {
-      name: "Batismo & Confraternização",
-      tag: "Evento Especial • Batismo",
-      // 20 de Setembro de 2026 às 08:00h (Mês 8 = Setembro no JS Date)
-      date: new Date(2026, 8, 20, 8, 0, 0),
-      location: "Sítio Fazendinha",
-      desc: "Domingo, 20/09 às 08:00h no Sítio Fazendinha. Celebração do batismo nas águas e dia de lazer em família."
-    },
-    {
       name: "Congresso dos Homens",
       tag: "Congresso • Homens",
       // 25 de Setembro de 2026 às 19:00h
       date: new Date(2026, 8, 25, 19, 0, 0),
       location: "ICCLA Sapucaí",
       desc: "Dias 25 e 26/09 às 19:00h na ICCLA Sapucaí. Noites poderosas de alinhamento e renovo espiritual."
+    },
+    {
+      name: "Festividade Infantil",
+      tag: "Festividade • Infantil",
+      // 16 de Outubro de 2026 às 19:00h (Mês 9 = Outubro no JS Date)
+      date: new Date(2026, 9, 16, 19, 0, 0),
+      location: "ICCLA",
+      desc: "Dias 16 e 17/10 às 19:00h na ICCLA. Uma festa alegre e abençoada para todas as nossas crianças e famílias!"
     }
   ];
 
